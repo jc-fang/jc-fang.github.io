@@ -17,18 +17,19 @@ My Chinese name is 方京超.
 News
 ======
 
-[09/2021] *Understanding the Effects of Structured Note-taking Systems for Video-based Learners in Individual and Social Learning Contexts* is conditionally accepted to ACM GROUP 2022. |
-[09/2021] Accepted to the ACM GROUP 2022 Doctoral Consortium.
+**[09/2021]** *Understanding the Effects of Structured Note-taking Systems for Video-based Learners in Individual and Social Learning Contexts* is conditionally accepted to ACM GROUP 2022. 
 
-[07/2021] *Social Interactions in Virtual Reality: What Cues do People Use Most and How* is conditionally accepted to CSCW 2021 Posters.
+**[09/2021]** Accepted to the ACM GROUP 2022 Doctoral Consortium.
 
-[02/2021] *NoteCoStruct: Powering Online Learners with Socially Scaffolded Note Taking and Sharing* is accepted to CHI 2021 Late-Breaking Work track.
+**[07/2021]** *Social Interactions in Virtual Reality: What Cues do People Use Most and How* is conditionally accepted to CSCW 2021 Posters.
 
-[03/2020] First time of being a teaching assistant!
+**[02/2021]** *NoteCoStruct: Powering Online Learners with Socially Scaffolded Note Taking and Sharing* is accepted to CHI 2021 Late-Breaking Work track.
 
-[09/2019] Started my Ph.D. study at UC Davis.
+**[03/2020]** First time of being a teaching assistant!
 
-[05/2019] Graduated from the University of Minnesota. Bye-bye winter wonderland and endless snow!
+**[09/2019]** Started my Ph.D. study at UC Davis.
+
+**[05/2019]** Graduated from the University of Minnesota. Bye-bye winter wonderland and endless snow!
 
 Publications
 ======
