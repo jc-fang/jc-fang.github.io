@@ -43,6 +43,10 @@ Jingchao Fang, Victoria Chang, Ge Gao, Hao-Chuan Wang. CSCW '21: Companion Publi
 **NoteCoStruct: Powering Online Learners with Socially Scaffolded Note Taking and Sharing.**
 Jingchao Fang, Yanhao Wang, Chi-Lan Yang, Hao-Chuan Wang. CHI EA '21: Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems. [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3411763.3451694) [[Video]](https://www.youtube.com/watch?v=i6bVJkMISmI)
 
+CV
+======
+[CV](https://jc-fang.github.io/CV.pdf)
+
 Contact
 ======
 
