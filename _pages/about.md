@@ -16,9 +16,8 @@ My Chinese name is 方京超.
 
 News
 ======
->
-[09/2021] *Understanding the Effects of Structured Note-taking Systems for Video-based Learners in Individual and Social Learning Contexts* is conditionally accepted to ACM GROUP 2022. 
 
+[09/2021] *Understanding the Effects of Structured Note-taking Systems for Video-based Learners in Individual and Social Learning Contexts* is conditionally accepted to ACM GROUP 2022. |
 [09/2021] Accepted to the ACM GROUP 2022 Doctoral Consortium.
 
 [07/2021] *Social Interactions in Virtual Reality: What Cues do People Use Most and How* is conditionally accepted to CSCW 2021 Posters.
@@ -41,7 +40,7 @@ Jingchao Fang, Yanhao Wang, Chi-Lan Yang, Ching Liu, Hao-Chuan Wang. Proceedings
 Jingchao Fang, Victoria Chang, Ge Gao, Hao-Chuan Wang. CSCW '21: Companion Publication of the 2021 Conference on Computer Supported Cooperative Work and Social Computing. [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3462204.3481772)
 
 **NoteCoStruct: Powering Online Learners with Socially Scaffolded Note Taking and Sharing.**
-Jingchao Fang, Yanhao Wang, Chi-Lan Yang, Hao-Chuan Wang. CHI EA '21: Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems. [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3411763.3451694) [Video](https://www.youtube.com/watch?v=i6bVJkMISmI)
+Jingchao Fang, Yanhao Wang, Chi-Lan Yang, Hao-Chuan Wang. CHI EA '21: Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems. [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3411763.3451694) [[Video]](https://www.youtube.com/watch?v=i6bVJkMISmI)
 
 Contact
 ======
