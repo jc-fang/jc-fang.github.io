@@ -45,7 +45,7 @@ Jingchao Fang, Yanhao Wang, Chi-Lan Yang, Hao-Chuan Wang. CHI EA '21: Extended A
 
 CV
 ======
-[CV](https://jc-fang.github.io/CV.pdf)
+[[View PDF]](https://jc-fang.github.io/CV.pdf)
 
 Contact
 ======
