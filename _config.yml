@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Jingchao Fang"
-  avatar           : "profile.png"
+  avatar           : "https://jc-fang.github.io/profile.png"
   bio              : "Third-year Computer Science Ph.D. student at UC Davis"
   location         : "Davis, CA"
   employer         :
