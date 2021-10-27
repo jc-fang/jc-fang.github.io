@@ -19,11 +19,15 @@ My Chinese name is 方京超.
 News
 ======
 
+**[10/2021]** Will attend CSCW and present our poster *Social Interactions in Virtual Reality: What Cues do People Use Most and How*.
+
 **[09/2021]** *Understanding the Effects of Structured Note-taking Systems for Video-based Learners in Individual and Social Learning Contexts* is conditionally accepted to ACM GROUP 2022. 
 
 **[09/2021]** Accepted to the ACM GROUP 2022 Doctoral Consortium.
 
 **[07/2021]** *Social Interactions in Virtual Reality: What Cues do People Use Most and How* is conditionally accepted to CSCW 2021 Posters.
+
+**[05/2021]** Will attend CHI and present our late-breaking work *NoteCoStruct: Powering Online Learners with Socially Scaffolded Note Taking and Sharing*.
 
 **[02/2021]** *NoteCoStruct: Powering Online Learners with Socially Scaffolded Note Taking and Sharing* is accepted to CHI 2021 Late-Breaking Work track.
 
