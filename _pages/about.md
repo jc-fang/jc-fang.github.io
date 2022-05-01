@@ -12,26 +12,20 @@ I am a third-year Ph.D. student in the Department of Computer Science at UC Davi
 
 Before coming to UC Davis, I received my B.S. degrees in Mathematics and Computer Science at the University of Minnesota.
 
-My Chinese name is 方京超.
-
 
 
 News
 ======
 
-**[10/2021]** Will attend CSCW and present our poster *Social Interactions in Virtual Reality: What Cues do People Use Most and How*.
+**[05/2022]** Will attend CHI virtually.
 
-**[09/2021]** *Understanding the Effects of Structured Note-taking Systems for Video-based Learners in Individual and Social Learning Contexts* is conditionally accepted to ACM GROUP 2022. 
+**[04/2022]** Will attend CRA-W worksop.
+
+**[10/2021]** Will attend CSCW and present our poster *Social Interactions in Virtual Reality: What Cues do People Use Most and How*.
 
 **[09/2021]** Accepted to the ACM GROUP 2022 Doctoral Consortium.
 
-**[07/2021]** *Social Interactions in Virtual Reality: What Cues do People Use Most and How* is conditionally accepted to CSCW 2021 Posters.
-
 **[05/2021]** Will attend CHI and present our late-breaking work *NoteCoStruct: Powering Online Learners with Socially Scaffolded Note Taking and Sharing*.
-
-**[02/2021]** *NoteCoStruct: Powering Online Learners with Socially Scaffolded Note Taking and Sharing* is accepted to CHI 2021 Late-Breaking Work track.
-
-**[03/2020]** First time of being a teaching assistant!
 
 **[09/2019]** Started my Ph.D. study at UC Davis.
 
@@ -42,20 +36,24 @@ News
 Publications
 ======
 
+**Understanding Social Influence in Collective Product Ratings Using Behavioral and Cognitive Metrics.** 
+Fu-Yin Cherng, Jingchao Fang, Yinhao Jiang, Xin Chen, Taejun Choi, Hao-Chuan Wang. To appear in Proceedings of ACM Conference on Human Factors in Computing Systems (CHI 2022). [[Paper]](https://dl.acm.org/doi/10.1145/3491102.3517726)
+
 **Understanding the Effects of Structured Note-taking Systems for Video-based Learners in Individual and Social Learning Contexts.**
-Jingchao Fang, Yanhao Wang, Chi-Lan Yang, Ching Liu, Hao-Chuan Wang. Proceedings of the ACM: Human-Computer Interaction (PACM HCI) (Oral presentation to appear at Group 2022) [Paper]
+Jingchao Fang, Yanhao Wang, Chi-Lan Yang, Ching Liu, Hao-Chuan Wang. Proceedings of the ACM: Human-Computer Interaction (PACM HCI) (Oral presentation to appear at Group 2022) [[Paper]](https://dl.acm.org/doi/10.1145/3492840)
+
 
 **Social Interactions in Virtual Reality: What Cues Do People Use Most and How.**
-Jingchao Fang, Victoria Chang, Ge Gao, Hao-Chuan Wang. CSCW '21: Companion Publication of the 2021 Conference on Computer Supported Cooperative Work and Social Computing. [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3462204.3481772)
+Jingchao Fang, Victoria Chang, Ge Gao, Hao-Chuan Wang. Companion Publication of the 2021 Conference on Computer Supported Cooperative Work and Social Computing (CSCW 2021). [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3462204.3481772)
 
 **NoteCoStruct: Powering Online Learners with Socially Scaffolded Note Taking and Sharing.**
-Jingchao Fang, Yanhao Wang, Chi-Lan Yang, Hao-Chuan Wang. CHI EA '21: Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems. [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3411763.3451694) [[Video]](https://www.youtube.com/watch?v=i6bVJkMISmI)
+Jingchao Fang, Yanhao Wang, Chi-Lan Yang, Hao-Chuan Wang. Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems (CHI EA 2021). [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3411763.3451694) [[Video]](https://www.youtube.com/watch?v=i6bVJkMISmI)
 
 
 
 CV
 ======
-[[View PDF]](https://jc-fang.github.io/CV.pdf)
+Updated 05/2022. [[View PDF]](https://jc-fang.github.io/CV.pdf)
 
 
 
