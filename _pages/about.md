@@ -40,7 +40,7 @@ Publications
 Fu-Yin Cherng, Jingchao Fang, Yinhao Jiang, Xin Chen, Taejun Choi, Hao-Chuan Wang. To appear in Proceedings of ACM Conference on Human Factors in Computing Systems (CHI 2022). [[Paper]](https://dl.acm.org/doi/10.1145/3491102.3517726)
 
 **Understanding the Effects of Structured Note-taking Systems for Video-based Learners in Individual and Social Learning Contexts.**
-Jingchao Fang, Yanhao Wang, Chi-Lan Yang, Ching Liu, Hao-Chuan Wang. Proceedings of the ACM: Human-Computer Interaction (PACM HCI) (Oral presentation to appear at Group 2022) [[Paper]](https://dl.acm.org/doi/10.1145/3492840)
+Jingchao Fang, Yanhao Wang, Chi-Lan Yang, Ching Liu, Hao-Chuan Wang. Proceedings of the ACM: Human-Computer Interaction (PACM HCI) (Oral presentation to appear at GROUP 2022) [[Paper]](https://dl.acm.org/doi/10.1145/3492840)
 
 
 **Social Interactions in Virtual Reality: What Cues Do People Use Most and How.**
