@@ -8,6 +8,18 @@ redirect_from:
   - /about.html
 ---
 
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6V7GXQ0D8C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6V7GXQ0D8C');
+</script>
+</head>
+
 I am a third-year Ph.D. student in the Department of Computer Science at UC Davis. I am advised by [Prof. Hao-Chuan Wang](http://www.haochuanwang.info/). My research interests lie at the intersection of Human-Computer Interaction (HCI), Computer-Supported Cooperative Work (CSCW), and Educational Technology. I study how to build interactive systems to better support remote knowledge sharing and computer-mediated communication.
 
 Before coming to UC Davis, I received my B.S. degrees in Mathematics and Computer Science at the University of Minnesota.
@@ -61,4 +73,4 @@ Updated 05/2022. [[View PDF]](https://jc-fang.github.io/CV.pdf)
 Contact
 ======
 
-If you would like chat about me or my research, please email me at jcfang@ucdavis.edu.
+If you would like chat about me or my research, please email me at jcfang [at] ucdavis [dot] edu.
