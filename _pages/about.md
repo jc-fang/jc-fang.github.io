@@ -56,13 +56,13 @@ Publications
 ======
 
 **How People Initiate and Respond to Discussions Around Online Community Norms: A Preliminary Analysis on Meta Stack Overflow Discussions**
-Jingchao Fang, Jia-Wei Liang, and Hao-Chuan Wang. 2023. In Companion Publication of the 2023 Conference on Computer Supported Cooperative Work and Social Computing (CSCW '23 Companion). [[Paper]](https://dl.acm.org/doi/abs/10.1145/3584931.3606966)
+Jingchao Fang, Jia-Wei Liang, and Hao-Chuan Wang. 2023. Companion Publication of the 2023 Conference on Computer Supported Cooperative Work and Social Computing (CSCW '23 Companion). [[Paper]](https://dl.acm.org/doi/abs/10.1145/3584931.3606966)
 
 **Supporting Online Learning and Teaching with Social Annotations**
-Jingchao Fang. 2023. In Companion Proceedings of the 2023 ACM International Conference on Supporting Group Work (GROUP '23). [[Paper]](https://dl.acm.org/doi/abs/10.1145/3565967.3571751)
+Jingchao Fang. 2023. Companion Proceedings of the 2023 ACM International Conference on Supporting Group Work (GROUP '23). [[Paper]](https://dl.acm.org/doi/abs/10.1145/3565967.3571751)
 
 **Understanding Social Influence in Collective Product Ratings Using Behavioral and Cognitive Metrics.** 
-Fu-Yin Cherng, Jingchao Fang, Yinhao Jiang, Xin Chen, Taejun Choi, Hao-Chuan Wang. To appear in Proceedings of ACM Conference on Human Factors in Computing Systems (CHI 2022). [[Paper]](https://dl.acm.org/doi/10.1145/3491102.3517726)
+Fu-Yin Cherng, Jingchao Fang, Yinhao Jiang, Xin Chen, Taejun Choi, Hao-Chuan Wang. Proceedings of ACM Conference on Human Factors in Computing Systems (CHI 2022). [[Paper]](https://dl.acm.org/doi/10.1145/3491102.3517726)
 
 **Understanding the Effects of Structured Note-taking Systems for Video-based Learners in Individual and Social Learning Contexts.**
 Jingchao Fang, Yanhao Wang, Chi-Lan Yang, Ching Liu, Hao-Chuan Wang. Proceedings of the ACM: Human-Computer Interaction (PACM HCI) (Oral presentation to appear at GROUP 2022) [[Paper]](https://dl.acm.org/doi/10.1145/3492840)
