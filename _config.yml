@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Jingchao Fang"
   avatar           : "https://jc-fang.github.io/profile.png"
-  bio              : "Third-year Computer Science Ph.D. student at UC Davis"
+  bio              : "Final-year Computer Science Ph.D. student at University of California, Davis"
   location         : "Davis, CA"
   employer         :
   pubmed           : 
@@ -102,8 +102,8 @@ author:
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         :
-  orcid            : 
+  linkedin         : https://www.linkedin.com/in/jingchaofang7b840411b/
+  orcid            : https://orcid.org/0000-0002-9412-4244
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
