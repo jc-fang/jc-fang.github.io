@@ -20,7 +20,7 @@ redirect_from:
 </script>
 </head>
 
-I am a fifth-year Ph.D. student in the Department of Computer Science at UC Davis, advised by [Prof. Hao-Chuan Wang](http://www.haochuanwang.info/). My research interest lies at the intersection of Human-Computer Interaction (HCI), Computer-Supported Cooperative Work (CSCW), and Social Computing. I study and build interactive systems that facilitate knowledge-based communication and collaboration. More specifically, my dissertation work aims to support online knowledge sharing and acquisition by enhancing interativity of video-based learning and teaching from the angle of computer-mediated communication. 
+I am a fifth-year Ph.D. student in the Department of Computer Science at UC Davis, advised by [Prof. Hao-Chuan Wang](http://www.haochuanwang.info/). My research interest lies at the intersection of Human-Computer Interaction (HCI), Computer-Supported Cooperative Work (CSCW), and Social Computing. I study and build interactive systems that facilitate knowledge-based communication and collaboration. More specifically, my dissertation work aims at supporting online knowledge sharing and acquisition by enhancing the interativity of video-based learning and teaching from the angle of computer-mediated communication. 
 
 Prior to joining UC Davis, I received my B.S. degrees in Mathematics and Computer Science at the University of Minnesota.
 
