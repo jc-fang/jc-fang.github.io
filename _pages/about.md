@@ -24,12 +24,13 @@ I am a fifth-year Ph.D. student in the Department of Computer Science at UC Davi
 
 Prior to joining UC Davis, I received my B.S. degrees in Mathematics and Computer Science at the University of Minnesota.
 
-
+</br>
+</br>
 
 News
 ======
 
-**[02/2024]** I'm on the job market for researcher/developer roles in both academia and industry. Reach out if you think there's a match!
+**[02/2024]** <span style="color: 0a66c2">I'm on the job market for researcher/developer roles in both academia and industry. Reach out if you think there's a match!</span>
 
 **[10/2023]** Attended CSCW 2023 and presented a poster *How People Initiate and Respond to Discussions Around Online Community Norms: A Preliminary Analysis on Meta Stack Overflow Discussions*. Back to Minnesota after 4 years!
 
@@ -43,11 +44,12 @@ News
 
 **[05/2021]** Will attend CHI 2021 and present our late-breaking work *NoteCoStruct: Powering Online Learners with Socially Scaffolded Note Taking and Sharing*.
 
-**[09/2019]** Started my Ph.D. study at UC Davis.
+**[09/2019]** Started my Ph.D. journey at UC Davis.
 
 **[05/2019]** Graduated from the University of Minnesota. 
 
-
+</br>
+</br>
 
 Publications
 ======
@@ -70,7 +72,17 @@ Jingchao Fang, Victoria Chang, Ge Gao, Hao-Chuan Wang. Companion Publication of 
 **NoteCoStruct: Powering Online Learners with Socially Scaffolded Note Taking and Sharing.**
 Jingchao Fang, Yanhao Wang, Chi-Lan Yang, Hao-Chuan Wang. Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems (CHI EA 2021). [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3411763.3451694) [[Video]](https://www.youtube.com/watch?v=i6bVJkMISmI)
 
+</br>
+</br>
 
+
+Contact
+======
+
+If you would like chat, please email me at jcfang [at] ucdavis [dot] edu.
+
+</br>
+</br>
 
 CV
 ======
@@ -79,7 +91,3 @@ Updated 05/2022. [[View PDF]](https://jc-fang.github.io/CV.pdf)
 
 
 
-Contact
-======
-
-If you would like chat, please email me at jcfang [at] ucdavis [dot] edu.
