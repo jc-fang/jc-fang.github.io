@@ -30,7 +30,7 @@ Prior to joining UC Davis, I received my B.S. degrees in Mathematics and Compute
 News
 ======
 
-**[02/2024]** 🔔 I'm on the job market for researcher and engineer roles in both academia and industry. Reach out if you think there's a match!
+**[02/2024]** 💡🙌 I'm on the job market for researcher and engineer roles in both academia and industry. Reach out if you think there's a match!
 
 
 **[10/2023]** Attended CSCW 2023 and presented a poster *How People Initiate and Respond to Discussions Around Online Community Norms: A Preliminary Analysis on Meta Stack Overflow Discussions*. Back to Minnesota after 4 years!
