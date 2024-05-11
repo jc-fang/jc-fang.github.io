@@ -30,8 +30,13 @@ Prior to joining UC Davis, I received my B.S. degrees in Mathematics and Compute
 News
 ======
 
-**[02/2024]** 💡🙌 I'm on the job market for researcher and engineer roles in both industry and academia. Reach out if you think there's a match!
+**[03/2024]** I will attend CHI 2024 and co-organize the [Sustaining Scalable Sustainability workshop](https://sustainingscalablesustainability.wordpress.com/) 🌳
 
+**[04/2024]** ✨ I'll be joining University of Chicago Data Science Institute (DSI) as a postdoc scholar in Fall 2024! 
+
+**[03/2024]** Our paper on educational live streaming supporting system & transcript-based annotation is conditionally accepted to CSCW 2024.
+
+<!-- **[02/2024]** 💡🙌 I'm on the job market for researcher and engineer roles in both industry and academia. Reach out if you think there's a match! -->
 
 **[10/2023]** Attended CSCW 2023 and presented a poster *How People Initiate and Respond to Discussions Around Online Community Norms: A Preliminary Analysis on Meta Stack Overflow Discussions*. Back to Minnesota after 4 years!
 
@@ -45,9 +50,9 @@ News
 
 **[05/2021]** Will attend CHI 2021 and present our late-breaking work *NoteCoStruct: Powering Online Learners with Socially Scaffolded Note Taking and Sharing*.
 
-**[09/2019]** Started my Ph.D. journey at UC Davis.
+<!-- **[09/2019]** Started my Ph.D. journey at UC Davis. -->
 
-**[05/2019]** Graduated from the University of Minnesota. 
+<!-- **[05/2019]** Graduated from the University of Minnesota.  -->
 
 &nbsp;
 &nbsp;
