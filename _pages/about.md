@@ -20,9 +20,11 @@ redirect_from:
 </script>
 </head>
 
-I am a fifth-year Ph.D. student in the Department of Computer Science at UC Davis, advised by [Prof. Hao-Chuan Wang](http://www.haochuanwang.info/). My research interest lies at the intersection of Human-Computer Interaction (HCI), Computer-Supported Cooperative Work (CSCW), and Social Computing. I study and build interactive systems that facilitate knowledge-based communication and collaboration. More specifically, my dissertation work aims at supporting online knowledge sharing and acquisition by enhancing the interativity of video-based learning and teaching from the angle of computer-mediated communication. 
+I am a postdoc at the the University of Chicago Data Science Institute, working with [Mina Lee]{https://minalee-research.github.io/}. My research interests lie at the intersection of Human-Computer Interaction, Social Computing, and AI. I focus on designing AI-infused interactive systems that serve as cognitive scaffolds for humans in various scenarios, including learning and computer-mediated communication. I previously earned a PhD in Computer Science from UC Davis and dual BSc degrees in Mathematics and Computer Science from the University of Minnesota, Twin Cities.
 
-Prior to joining UC Davis, I received my B.S. degrees in Mathematics and Computer Science at the University of Minnesota.
+<!-- I am a fifth-year Ph.D. student in the Department of Computer Science at UC Davis, advised by [Prof. Hao-Chuan Wang](http://www.haochuanwang.info/). My research interest lies at the intersection of Human-Computer Interaction (HCI), Computer-Supported Cooperative Work (CSCW), and Social Computing. I study and build interactive systems that facilitate knowledge-based communication and collaboration. More specifically, my dissertation work aims at supporting online knowledge sharing and acquisition by enhancing the interativity of video-based learning and teaching from the angle of computer-mediated communication.  -->
+
+<!-- Prior to joining UC Davis, I received my B.S. degrees in Mathematics and Computer Science at the University of Minnesota. -->
 
 &nbsp;
 &nbsp;
@@ -30,9 +32,13 @@ Prior to joining UC Davis, I received my B.S. degrees in Mathematics and Compute
 News
 ======
 
+**[09/2024]** ✨ Started my postdoc at UChicago. 
+
+**[09/2024]** Attended IVA 2024 in Glasgow and presented the LLM Wizards paper. 
+
 **[03/2024]** I will attend CHI 2024 and co-organize the [Sustaining Scalable Sustainability workshop](https://sustainingscalablesustainability.wordpress.com/) 🌳
 
-**[04/2024]** ✨ I'll be joining University of Chicago Data Science Institute (DSI) as a postdoc scholar in Fall 2024! 
+<!-- **[04/2024]** ✨ I'll be joining University of Chicago Data Science Institute (DSI) as a postdoc scholar in Fall 2024!  -->
 
 **[03/2024]** Our paper on educational live streaming supporting system & transcript-based annotation is conditionally accepted to CSCW 2024.
 
@@ -44,11 +50,11 @@ News
 
 **[01/2023]** Attended GROUP 2023, participated in the Doctoral Consortium, and presented my paper *Understanding the Effects of Structured Note-taking Systems for Video-based Learners in Individual and Social Learning Contexts*.
 
-**[04/2022]** Attended CRA-W worksop.
+<!-- **[04/2022]** Attended CRA-W worksop.
 
 **[10/2021]** Attended CSCW 2021 and present our poster *Social Interactions in Virtual Reality: What Cues do People Use Most and How*.
 
-**[05/2021]** Will attend CHI 2021 and present our late-breaking work *NoteCoStruct: Powering Online Learners with Socially Scaffolded Note Taking and Sharing*.
+**[05/2021]** Will attend CHI 2021 and present our late-breaking work *NoteCoStruct: Powering Online Learners with Socially Scaffolded Note Taking and Sharing*. -->
 
 <!-- **[09/2019]** Started my Ph.D. journey at UC Davis. -->
 
@@ -59,6 +65,11 @@ News
 
 Publications
 ======
+
+**On LLM Wizards: Identifying Large Language Models' Behaviors for Wizard of Oz Experiments**
+Jingchao Fang, Nikos Arechiga, Keiichi Namaoshi, Nayeli Bravo, Candice Hogan, David A Shamma. 2024.  In ACM International Conference on Intelligent Virtual Agents (IVA
+’24). [[Paper]](https://arxiv.org/abs/2407.08067)
+
 
 **How People Initiate and Respond to Discussions Around Online Community Norms: A Preliminary Analysis on Meta Stack Overflow Discussions**
 Jingchao Fang, Jia-Wei Liang, and Hao-Chuan Wang. 2023. Companion Publication of the 2023 Conference on Computer Supported Cooperative Work and Social Computing (CSCW '23 Companion). [[Paper]](https://dl.acm.org/doi/abs/10.1145/3584931.3606966)
@@ -85,7 +96,7 @@ Jingchao Fang, Yanhao Wang, Chi-Lan Yang, Hao-Chuan Wang. Extended Abstracts of 
 Contact
 ======
 
-If you would like chat, please email me at jcfang [at] ucdavis [dot] edu.
+Email me at jcfang [at] uchicago [dot] edu.
 
 &nbsp;
 &nbsp;
