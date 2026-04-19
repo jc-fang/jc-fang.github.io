@@ -21,7 +21,7 @@ gtag('config', 'G-6V7GXQ0D8C');
 
 </head>
 
-I am a postdoc at the the University of Chicago Data Science Institute, working with [Mina Lee](https://minalee-research.github.io/). My research interests lie at the intersection of Human-Computer Interaction, Social Computing, and AI. I design and evaluate AI-infused interactive systems that serve as cognitive scaffolds for humans in learning and knowledge work. I previously earned a PhD in Computer Science from UC Davis and dual BSc degrees in Mathematics and Computer Science from the University of Minnesota, Twin Cities.
+I am a postdoc at the University of Chicago Data Science Institute, working with [Mina Lee](https://minalee-research.github.io/). My research interests lie at the intersection of Human-Computer Interaction, Social Computing, and AI. I design and evaluate AI-infused interactive systems that serve as cognitive scaffolds for humans in learning and knowledge work. I previously earned a PhD in Computer Science from UC Davis and dual BSc degrees in Mathematics and Computer Science from the University of Minnesota, Twin Cities.
 
 <!-- I am a fifth-year Ph.D. student in the Department of Computer Science at UC Davis, advised by [Prof. Hao-Chuan Wang](http://www.haochuanwang.info/). My research interest lies at the intersection of Human-Computer Interaction (HCI), Computer-Supported Cooperative Work (CSCW), and Social Computing. I study and build interactive systems that facilitate knowledge-based communication and collaboration. More specifically, my dissertation work aims at supporting online knowledge sharing and acquisition by enhancing the interativity of video-based learning and teaching from the angle of computer-mediated communication.  -->
 
@@ -31,6 +31,10 @@ I am a postdoc at the the University of Chicago Data Science Institute, working 
 &nbsp;
 
 # News
+
+**[03/2026]** Our paper _What Influences Readers' and Writers' Perceived Necessity of AI Disclosure?_ is accepted to FAccT 2026.
+
+**[03/2026]** Our work about _LLM-generated conversation initiations in video-based learning_ is accepted to ICLS 2026 as a poster.
 
 **[10/2025]** ✨ Named as the DSI ZhengTong Postdoctoral Fellow for the 2025-2026 academic year in recognition of outstanding research.
 
