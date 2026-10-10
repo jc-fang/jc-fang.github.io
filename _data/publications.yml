@@ -1,0 +1,89 @@
+# Each theme has a title, a short description, and a list of papers.
+# Paper fields: title, authors, venue, tldr, image (optional, file in assets/images/pubs/),
+#               links (optional list of {label, url}). Wrap your own name in ** ** to bold it.
+# Missing/empty `image` shows a neutral placeholder.
+# Images are shown whole inside the card by default. `fit: cover` (optional) fills the card and crops instead.
+
+- theme: Interactive Systems for Online Education
+  description: Understanding and shaping how large language models behave when people design and study interactions with them.
+  papers:
+    - title: "EduLive: Re-Creating Cues for Instructor-Learners Interaction in Educational Live Streams with Learners' Transcript-Based Annotations"
+      authors: "**Jingchao Fang**, Jeongeon Park, Juho Kim, Hao-Chuan Wang"
+      venue: "CSCW 2024 · Proceedings of the ACM on Human-Computer Interaction"
+      tldr: "EduLive is a live-streaming support system that turns learners' transcript-based annotations into interactivity cues for teachers."
+      image: edulive.png
+      links:
+        - { label: Paper, url: "https://dl.acm.org/doi/pdf/10.1145/3686960" }
+    - title: "Understanding the Effects of Structured Note-taking Systems for Video-based Learners in Individual and Social Learning Contexts"
+      authors: "**Jingchao Fang**, Yanhao Wang, Chi-Lan Yang, Ching Liu, Hao-Chuan Wang"
+      venue: "GROUP 2022 · Proceedings of the ACM on Human-Computer Interaction"
+      tldr: "NoteCoStruct is a digital note-taking and note-sharing tool that turns fragmented notes into shareable learning traces."
+      image: notecostruct.png
+      links:
+        - { label: Paper, url: "https://dl.acm.org/doi/pdf/10.1145/3492840" }
+    - title: "How Persona and Message Type in Conversation Initiation Influence Learners’ Experience with Educational Chatbots"
+      authors: "**Jingchao Fang**, Qingxiaoyang Zhu, Hao-Chuan Wang"
+      venue: "EMNLP 2026 NLP4PI Workshop · 5th Workshop on NLP for Positive Impact."
+      tldr: "Using EduPrompt, we find that learning companion chatbot's personas and message styles influence learners' perceptions and reactions in video-based learning."
+      image: eduprompt.png
+      links:
+        - { label: Paper, url: "https://openreview.net/pdf?id=dipmCvnUbc" }
+
+- theme: Responsible AI Use in Knowledge Work
+  description: Understanding and shaping how large language models behave when people design and study interactions with them.
+  papers:
+    - title: "What Influences Readers' and Writers' Perceived Necessity of AI Disclosure?"
+      authors: "**Jingchao Fang**, Victoria Xiaohan Wen, Mina Lee"
+      venue: "FAccT 2026 · ACM Conference on Fairness, Accountability, and Transparency"
+      tldr: "We studied how perspective (reader or writer of the text), purpose (the goal of reading or writing), and procedural factors (how AI was used) influences perceived necessity of AI disclosure in AI-assisted writing."
+      image: disclosure.png
+      links:
+        - {
+            label: Paper,
+            url: "https://dl.acm.org/doi/pdf/10.1145/3805689.3806724",
+          }
+    - title: "Fostering Mindful Human-LLM Interaction with Design Friction"
+      # authors: "**Jingchao Fang**, Nikos Arechiga, Keiichi Namaoshi, Nayeli Bravo, Candice Hogan, David A. Shamma"
+      authors: "**Jingchao Fang** et al. Paper title altered for anonymization"
+      venue: "Under Review"
+      tldr: "We introduce voluntary friction to foster mindful LLM use in AI-assisted writing."
+      image: friction.png
+      links:
+        - {
+            label: Paper,
+            # url: "https://dl.acm.org/doi/10.1145/3652988.3673967",
+          }
+    - title: "On LLM Wizards: Identifying Large Language Models' Behaviors for Wizard of Oz Experiments"
+      authors: "**Jingchao Fang**, Nikos Arechiga, Keiichi Namaoshi, Nayeli Bravo, Candice Hogan, David A. Shamma"
+      venue: "IVA 2024 · ACM International Conference on Intelligent Virtual Agents"
+      tldr: "We introduce an experiment lifecycle that guides researchers to responsibly integrate LLMs into Wizard of Oz experiments."
+      image: llm-wizard.png
+      links:
+        - {
+            label: Paper,
+            url: "https://dl.acm.org/doi/pdf/10.1145/3652988.3673967",
+          }
+
+- theme: Online Community
+  description: How people influence one another in online communities and collective judgments.
+  papers:
+    - title: "Understanding Social Influence in Collective Product Ratings Using Behavioral and Cognitive Metrics"
+      authors: "Fu-Yin Cherng, **Jingchao Fang**, Yinhao Jiang, Xin Chen, Taejun Choi, Hao-Chuan Wang"
+      venue: "CHI 2022 · ACM Conference on Human Factors in Computing Systems"
+      tldr: "We conducted a lab experiment to investigate how products' ratings and reviews influence users' preferences and cognitive responses assessed by their EEG."
+      image: social-influence.png
+      links:
+        - {
+            label: Paper,
+            url: "https://dl.acm.org/doi/pdf/10.1145/3491102.3517726",
+          }
+    - title: "Understanding Discussions Around Norms in Heavily Moderated Knowledge-Based Online Communities: A Case Study on Meta Stack Overflow"
+      authors: "**Jingchao Fang**, Jia-Wei Liang, Hao-Chuan Wang"
+      venue: "Computer Supported Cooperative Work: The Journal of Collaborative Computing and Work Practices"
+      tldr: ' We established a taxonomy of "what''s and hows" of norm-related discussions in a heavily moderated, knowledge-based online community.'
+      image: metaso-norm.png
+      links:
+        - {
+            label: Paper,
+            url: "https://link.springer.com/article/10.1007/s10606-026-09547-3",
+          }

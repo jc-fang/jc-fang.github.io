@@ -1,0 +1,46 @@
+# Newest first. `text` allows HTML. Items beyond `news_visible` (see _includes/news.html) are folded.
+- {
+    date: "Aug 2026",
+    text: "Our paper about educational chatbot personas was accepted to the EMNLP NLP4PI Workshop.",
+  }
+- {
+    date: "Jun 2026",
+    text: "Attended FAccT in Montreal and presented a paper about readers' and writers' perceived necessity of AI disclosure.",
+  }
+- {
+    date: "Jun 2026",
+    text: "Attended ICLS in Irvine and presented our poster about LLM-generated conversation initiations in video-based learning.",
+  }
+- {
+    date: "Jun 2026",
+    text: "Our work about social norms in knowledge-based online communities was published in the Computer Supported Cooperative Work (CSCW) journal.",
+  }
+- {
+    date: "Oct 2025",
+    text: "Named the DSI ZhengTong Postdoctoral Fellow for 2025-2026 in recognition of outstanding research.",
+  }
+- {
+    date: "Jun 2025",
+    text: "Attended the CSST summer institute in Upstate New York.",
+  }
+- {
+    date: "Nov 2025",
+    text: "Attended CSCW in Costa Rica and presented the EduLive paper.",
+  }
+- { date: "Sep 2024", text: "Started my postdoc at UChicago." }
+- {
+    date: "Sep 2024",
+    text: "Attended IVA in Glasgow and presented the LLM Wizards paper.",
+  }
+- {
+    date: "Mar 2024",
+    text: "Attended CHI in Hawaii and co-organized the Sustaining Scalable Sustainability workshop.",
+  }
+# - {
+#     date: "Oct 2023",
+#     text: "Attended CSCW in Minneapolis and presented a poster about <em>online community norms on Meta Stack Overflow</em>.",
+#   }
+# - {
+#     date: "Sep 2023",
+#     text: "Wrapped up my internship at Toyota Research Institute. ",
+#   }

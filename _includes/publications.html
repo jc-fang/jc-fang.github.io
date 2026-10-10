@@ -1,0 +1,10 @@
+<section class="section" id="publications">
+  <h2>Selected Publications</h2>
+  <p class="section__note">See the full publication list on <a href="{{ site.data.profile.scholar_url }}">Google Scholar</a>.</p>
+  {% for group in site.data.publications %}
+  <div class="theme">
+    <h3 class="theme__title">{{ group.theme }}</h3>
+    {% for paper in group.papers %}{% include publication.html paper=paper %}{% endfor %}
+  </div>
+  {% endfor %}
+</section>

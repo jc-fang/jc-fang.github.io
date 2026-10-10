@@ -1,0 +1,194 @@
+/* =====================================================================
+   COLORS: change the values here and the whole site updates.
+   Each color is used in exactly the places listed next to it.
+   ===================================================================== */
+:root {
+  --bg:       #faf8f5;  /* page background (warm off-white) */
+  --surface:  #faf8f5;  /* footer bar, figure placeholder, button hover background */
+  --border:   #e5dfd5;  /* dividers, figure outline */
+  --rule:     #dccdc1;  /* thick underline below News / Selected Publications */
+  /* --text:     #231f1b;  /* intro, news text and dates, paper titles, section headings */
+  --text:     #403832;  /* intro, news text and dates, paper titles, section headings */
+  --muted:    #6e665c;  /* authors, venues, TL;DRs, sidebar info, descriptions, icons, footer */
+  --accent:   #9e441b;  /* links (intro, sidebar hover, Paper links), expand/collapse button */
+  --accent_a:   #a06739;  /* links (intro, sidebar hover, Paper links), expand/collapse button */
+
+  /* ---------------- FONTS: keep ONE --font line active ----------------
+     A Inter (clean, neutral)
+     B DM Sans (rounder, friendly)
+     C IBM Plex Sans (technical, slightly narrow)
+     D Source Serif 4 (all serif, academic)
+     E Lora (all serif, warmer)
+     F Inter body + Source Serif 4 headings (set --font-heading below too)  */
+  /* --font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;           /* A */
+   --font: "DM Sans", system-ui, sans-serif;                                          /* B */
+  /* --font: "IBM Plex Sans", system-ui, sans-serif;                                    C */
+  /* --font: "Source Serif 4", Georgia, serif;                                          D */
+  /* --font: "Lora", Georgia, serif;                                                    E */
+  --font-heading: var(--font);
+  /* --font-heading: "Source Serif 4", Georgia, serif;                                  F */
+
+  --photo: 200px;          /* profile photo size; links and note below align to its left edge */
+  --radius: 10px;          /* figures */
+  --sidebar-w: 280px;
+  --max-w: 1180px;
+
+  /* spacing scale: every gap on the site uses one of these */
+  --s1: 6px;
+  --s2: 12px;
+  --s3: 20px;
+  --s4: 32px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:      #1a1714;
+    --surface: #24201c;
+    --border:  #38322b;
+    --rule:    #54453a;
+    --text:    #ece6dd;
+    --muted:   #a49b8f;
+    --accent:  #d6a97c;
+  }
+}
+
+/* ---------- Base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex; flex-direction: column;
+  background: var(--bg);
+  color: var(--text);
+  font: 400 16px/1.6 var(--font);
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, p, ul { margin: 0; }
+h1, h2, h3, h4 { font-family: var(--font-heading); }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---------- Layout ---------- */
+.page {
+  flex: 1;
+  width: 100%;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 48px 28px 56px;
+  display: grid;
+  grid-template-columns: var(--sidebar-w) minmax(0, 1fr);
+  gap: 56px;
+  align-items: start;
+}
+.sidebar { position: sticky; top: 48px; }
+.content > * + * { margin-top: var(--s4); }
+
+/* ---------- Sidebar ---------- */
+.sidebar__photo {
+  display: block;
+  width: var(--photo); height: var(--photo);
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto var(--s3);
+  box-shadow: 0 6px 20px rgba(60, 40, 20, 0.18), 0 1px 3px rgba(60, 40, 20, 0.12);
+}
+.sidebar__name { text-align: center; font-size: 1.5rem; font-weight: 700; line-height: 1.25; letter-spacing: -0.01em; }
+.sidebar__info { margin-top: var(--s1); text-align: center; font-size: 0.92rem; line-height: 1.5; }
+.sidebar__links { list-style: none; padding: 0; margin: var(--s3) calc((var(--sidebar-w) - var(--photo)) / 2) 0; }
+.sidebar__links a {
+  display: flex; align-items: center; gap: var(--s2);
+  padding: 4px 0;
+  color: var(--text); font-size: 0.92rem;
+}
+.sidebar__links a:hover { color: var(--accent); text-decoration: none; }
+/* highlighted note under the links */
+.sidebar__notice {
+  margin: var(--s3) calc((var(--sidebar-w) - var(--photo)) / 2) 0;
+  color: var(--accent_a); font-size: 0.92rem; font-weight: 500; line-height: 1.5;
+}
+.icon { flex: none; color: var(--muted); }
+a:hover > .icon { color: var(--accent); }
+
+/* ---------- Section headings ---------- */
+.section h2 {
+  width: fit-content;
+  font-size: 1.5rem; font-weight: 700; letter-spacing: -0.01em; line-height: 1.3;
+  padding-bottom: 4px;
+  margin-bottom: var(--s2);
+  border-bottom: 3px solid var(--rule);
+}
+.intro p + p { margin-top: var(--s2); }
+
+/* ---------- News ---------- */
+.news { list-style: none; padding: 0; display: grid; gap: var(--s1); }
+.news__item { display: grid; grid-template-columns: 80px 1fr; gap: var(--s2); }
+.news__item[hidden] { display: none; }
+.news__date { font-weight: 600; color: color-mix(in srgb, var(--text) 75%, var(--muted)); font-variant-numeric: tabular-nums; }
+
+.toggle {
+  display: inline-flex; align-items: center; gap: var(--s1);
+  margin: var(--s2) 0 0 -8px;
+  padding: 4px 10px 4px 8px;
+  font: 500 0.9rem var(--font);
+  color: var(--accent);
+  background: none; border: 0; border-radius: var(--radius);
+  cursor: pointer;
+}
+.toggle:hover { background: var(--surface); }
+.toggle .icon { color: inherit; transition: transform .2s; }
+.toggle[aria-expanded="true"] .icon { transform: rotate(180deg); }
+
+/* ---------- Publications ---------- */
+.section__note { color: var(--muted); font-size: 0.93rem; padding-bottom: var(--s2); border-bottom: 1px solid var(--border); }
+.theme { margin-top: var(--s3); padding-top: var(--s3); border-top: 1px solid var(--border); }
+.section__note + .theme { margin-top: var(--s3); padding-top: 0; border-top: 0; }
+.theme__title { font-size: 1.1rem; font-weight: 600; }
+
+.pub { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: var(--s3); margin-top: var(--s3); }
+.pub__figure {
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: 0 3px 10px rgba(60, 40, 20, 0.12), 0 1px 2px rgba(60, 40, 20, 0.08);
+  overflow: hidden;
+}
+/* default: show the whole image, zoomed out to fit with a little margin */
+.pub__figure img { width: 100%; height: 100%; object-fit: contain; padding: 6px; display: block; }
+/* `fit: cover` in publications.yml: fill the card and crop the edges instead */
+.pub__figure--cover img { object-fit: cover; padding: 0; }
+.pub__title { font-size: 0.96rem; font-weight: 600; line-height: 1.4; }
+/* everything under the title shares one color (--muted) */
+.pub__authors, .pub__venue, .pub__tldr { margin-top: 2px; font-size: 0.82rem; line-height: 1.5; color: var(--muted); }
+.pub__authors strong, .pub__tldr strong { font-weight: 600; }
+.pub__venue { font-style: italic; }
+.pub__links { margin-top: 0; line-height: 1.4; display: flex; flex-wrap: wrap; gap: var(--s3); }
+.pub__links a { display: inline-flex; align-items: center; gap: var(--s1); font-size: 0.82rem; font-weight: 500; }
+.pub__links .icon { color: inherit; }
+/* links without a url: muted color, not clickable, "not-allowed" cursor on hover */
+.pub__links .is-disabled {
+  display: inline-flex; align-items: center; gap: var(--s1);
+  font-size: 0.82rem; font-weight: 500;
+  color: var(--muted);
+  cursor: not-allowed;
+}
+
+/* ---------- Footer ---------- */
+.footer { background: var(--surface); border-top: 1px solid var(--border); }
+.footer__inner {
+  max-width: var(--max-w); margin: 0 auto;
+  padding: var(--s3) 28px;
+  text-align: center;
+  color: var(--muted); font-size: 0.78rem;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .page { grid-template-columns: 1fr; gap: var(--s4); padding-top: var(--s4); }
+  .sidebar { position: static; display: grid; grid-template-columns: auto 1fr; column-gap: var(--s3); align-items: center; }
+  .sidebar__photo { width: 110px; height: 110px; margin: 0; grid-row: span 2; }
+  .sidebar__links { margin: 0; grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }
+}
+@media (max-width: 600px) {
+  .pub { grid-template-columns: 1fr; gap: var(--s2); }
+  .news__item { grid-template-columns: 1fr; gap: 0; }
+}

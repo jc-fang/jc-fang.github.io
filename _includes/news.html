@@ -1,0 +1,18 @@
+{% assign news_visible = 5 %}
+<section class="section" id="news">
+  <h2>News</h2>
+  <ul class="news">
+    {% for item in site.data.news %}
+    <li class="news__item{% if forloop.index > news_visible %} news__item--older" hidden{% else %}"{% endif %}>
+      <span class="news__date">{{ item.date }}</span>
+      <span class="news__text">{{ item.text }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+  {% if site.data.news.size > news_visible %}
+  <button class="toggle" type="button" id="news-toggle" aria-expanded="false"
+          data-show="Show older news" data-hide="Hide older news">
+    <span class="toggle__label">Show older news</span>{% include icon.html name="chevron-down" %}
+  </button>
+  {% endif %}
+</section>

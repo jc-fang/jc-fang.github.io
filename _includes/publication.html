@@ -1,0 +1,17 @@
+{% assign paper = include.paper %}
+<article class="pub">
+  <div class="pub__figure{% if paper.fit == 'cover' %} pub__figure--cover{% endif %}">
+    {% if paper.image %}
+    <img src="{{ paper.image | prepend: '/assets/images/pubs/' | relative_url }}" alt="" loading="lazy" onerror="this.parentNode.classList.add('pub__figure--empty');this.remove()">
+    {% endif %}
+  </div>
+  <div class="pub__body">
+    <h4 class="pub__title">{{ paper.title }}</h4>
+    <p class="pub__authors">{{ paper.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+    <p class="pub__venue">{{ paper.venue }}</p>
+    {% if paper.tldr %}<p class="pub__tldr"><strong>TL;DR:</strong> {{ paper.tldr }}</p>{% endif %}
+    {% if paper.links %}
+    <p class="pub__links">{% for l in paper.links %}{% assign ic = l.icon | default: "pdf" %}{% if l.url %}<a href="{{ l.url }}">{% include icon.html name=ic %}{{ l.label }}</a>{% else %}<span class="is-disabled" title="Not available yet" aria-disabled="true">{% include icon.html name=ic %}{{ l.label }}</span>{% endif %}{% endfor %}</p>
+    {% endif %}
+  </div>
+</article>
