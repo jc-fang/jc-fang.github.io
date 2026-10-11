@@ -28,7 +28,7 @@ links:
 scholar_url: "https://scholar.google.com/citations?user=ZEJh3K4AAAAJ&hl=en&oi=ao"
 
 # Highlighted note under the sidebar links. Delete the line to hide it.
-notice: "🌱 [2026-2027] I'm on the job market, seeking academic and industry positions."
+notice: "🌱 [2026-2027] I'm on the <strong>job market</strong>, seeking academic and industry positions."
 
 # Intro paragraphs. HTML allowed, so add links freely.
 intro:
