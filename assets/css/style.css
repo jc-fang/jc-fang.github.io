@@ -3,15 +3,17 @@
    Each color is used in exactly the places listed next to it.
    ===================================================================== */
 :root {
-  --bg:       #faf8f5;  /* page background (warm off-white) */
-  --surface:  #faf8f5;  /* footer bar, figure placeholder, button hover background */
-  --border:   #e5dfd5;  /* dividers, figure outline */
-  --rule:     #dccdc1;  /* thick underline below News / Selected Publications */
-  /* --text:     #231f1b;  /* intro, news text and dates, paper titles, section headings */
-  --text:     #403832;  /* intro, news text and dates, paper titles, section headings */
-  --muted:    #6e665c;  /* authors, venues, TL;DRs, sidebar info, descriptions, icons, footer */
-  --accent:   #9e441b;  /* links (intro, sidebar hover, Paper links), expand/collapse button */
-  --accent_a:   #a06739;  /* links (intro, sidebar hover, Paper links), expand/collapse button */
+  --bg:       #ffffff;  /* page background */
+  --surface:  #ffffff;  /* footer bar, figure placeholder, button hover background */
+  /*--border:   #e5e7eb;  /* dividers, figure outline */
+  /*--rule:     #d1d5db;  /* thick underline below News / Selected Publications (neutral gray) */
+  --border:   #e9e3f9;  /* dividers, figure outline */
+  --rule:     #ddd7eb;  /* thick underline below News / Selected Publications */
+  --text:     #221f28;  /* intro, news text and dates, paper titles, section headings */
+  --muted:    #5f6672;  /* authors, venues, TL;DRs, sidebar info, descriptions, icons, footer */
+  /*--accent:   #5331a5;  /* links (intro, sidebar hover, Paper links), expand/collapse button */
+  --accent: #642081;  /* links (intro, sidebar hover, Paper links), expand/collapse button */
+  --accent_a: #5f2d11;  /* job-market note in the sidebar */
 
   /* ---------------- FONTS: keep ONE --font line active ----------------
      A Inter (clean, neutral)
@@ -22,9 +24,9 @@
      F Inter body + Source Serif 4 headings (set --font-heading below too)  */
   /* --font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;           /* A */
    --font: "DM Sans", system-ui, sans-serif;                                          /* B */
-  /* --font: "IBM Plex Sans", system-ui, sans-serif;                                    C */
-  /* --font: "Source Serif 4", Georgia, serif;                                          D */
-  /* --font: "Lora", Georgia, serif;                                                    E */
+  /* --font: "IBM Plex Sans", system-ui, sans-serif;                                    /* C */
+  /*--font: "Source Serif 4", Georgia, serif;                                        /*  D */
+  /* --font: "Lora", Georgia, serif;                                                    /* E */
   --font-heading: var(--font);
   /* --font-heading: "Source Serif 4", Georgia, serif;                                  F */
 
@@ -41,13 +43,14 @@
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg:      #1a1714;
-    --surface: #24201c;
-    --border:  #38322b;
-    --rule:    #54453a;
-    --text:    #ece6dd;
-    --muted:   #a49b8f;
-    --accent:  #d6a97c;
+    --bg:      #28252d;
+    --surface: #28252d;
+    --border:  #36304b;
+    --rule:    #3b3552;
+    --text:    #ece9f1;
+    --muted:   #aeacb5;
+    --accent:  #e2baf4;
+    --accent_a: #e3b894;
   }
 }
 
@@ -89,7 +92,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   border-radius: 50%;
   object-fit: cover;
   margin: 0 auto var(--s3);
-  box-shadow: 0 6px 20px rgba(60, 40, 20, 0.18), 0 1px 3px rgba(60, 40, 20, 0.12);
+  box-shadow: 0 6px 20px rgba(20, 20, 30, 0.18), 0 1px 3px rgba(20, 20, 30, 0.12);
 }
 .sidebar__name { text-align: center; font-size: 1.5rem; font-weight: 700; line-height: 1.25; letter-spacing: -0.01em; }
 .sidebar__info { margin-top: var(--s1); text-align: center; font-size: 0.92rem; line-height: 1.5; }
@@ -117,6 +120,9 @@ a:hover > .icon { color: var(--accent); }
   border-bottom: 3px solid var(--rule);
 }
 .intro p + p { margin-top: var(--s2); }
+/* links in the intro (e.g. advisor names): normal text color, theme color on hover */
+.intro a { color: inherit; }
+.intro a:hover { color: var(--accent); }
 
 /* ---------- News ---------- */
 .news { list-style: none; padding: 0; display: grid; gap: var(--s1); }
@@ -126,14 +132,14 @@ a:hover > .icon { color: var(--accent); }
 
 .toggle {
   display: inline-flex; align-items: center; gap: var(--s1);
-  margin: var(--s2) 0 0 -8px;
-  padding: 4px 10px 4px 8px;
+  margin: var(--s2) 0 0;
+  padding: 0;
   font: 500 0.9rem var(--font);
   color: var(--accent);
-  background: none; border: 0; border-radius: var(--radius);
+  background: none; border: 0;
   cursor: pointer;
 }
-.toggle:hover { background: var(--surface); }
+.toggle:hover .toggle__label { text-decoration: underline; text-underline-offset: 3px; }
 .toggle .icon { color: inherit; transition: transform .2s; }
 .toggle[aria-expanded="true"] .icon { transform: rotate(180deg); }
 
@@ -149,7 +155,7 @@ a:hover > .icon { color: var(--accent); }
   border-radius: var(--radius);
   background: var(--surface);
   border: 1px solid var(--border);
-  box-shadow: 0 3px 10px rgba(60, 40, 20, 0.12), 0 1px 2px rgba(60, 40, 20, 0.08);
+  box-shadow: 0 3px 10px rgba(20, 20, 30, 0.12), 0 1px 2px rgba(20, 20, 30, 0.08);
   overflow: hidden;
 }
 /* default: show the whole image, zoomed out to fit with a little margin */

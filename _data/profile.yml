@@ -28,17 +28,17 @@ links:
 scholar_url: "https://scholar.google.com/citations?user=ZEJh3K4AAAAJ&hl=en&oi=ao"
 
 # Highlighted note under the sidebar links. Delete the line to hide it.
-notice: "🌱 [2026-2027] I am <strong>on the job market</strong>, seeking academic and industry positions."
+notice: "🌱 [2026-2027] I am on the job market, seeking academic and industry positions."
 
 # Intro paragraphs. HTML allowed, so add links freely.
 intro:
   - >-
-    I am a postdoc at the University of Chicago Data Science Institute, working with
+    I am a postdoc at the <a href="https://datascience.uchicago.edu/">University of Chicago Data Science Institute</a>, working with
     <a href="https://minalee-research.github.io/">Mina Lee</a>. My research interests lie at the
     intersection of <strong>Human-Computer Interaction</strong>, <strong>Social Computing</strong>, and <strong>Responsible AI</strong>. I design and evaluate
     human-centered technology to support users' learning and knowledge work, focusing primarily on online education and AI-assisted writing contexts. 
     I approach this goal from two angles: (1) designing interactive systems that scaffold cognitive processes in sensemaking and content creation, and (2) fostering responsible use of technology.
   - >-
-    I previously earned a PhD in Computer Science from UC Davis, advised by
+    I previously earned my PhD in Computer Science from the <a href="https://www.ucdavis.edu/">University of California, Davis</a>, advised by
     <a href="http://www.haochuanwang.info/">Hao-Chuan Wang</a>, and dual BSc degrees in Mathematics
-    and Computer Science from the University of Minnesota, Twin Cities.
+    and Computer Science from the <a href="https://twin-cities.umn.edu/">University of Minnesota, Twin Cities</a>.
