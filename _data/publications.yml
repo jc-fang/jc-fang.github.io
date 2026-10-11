@@ -35,7 +35,7 @@
     - title: "What Influences Readers' and Writers' Perceived Necessity of AI Disclosure?"
       authors: "**Jingchao Fang**, Victoria Xiaohan Wen, Mina Lee"
       venue: "FAccT 2026 · ACM Conference on Fairness, Accountability, and Transparency"
-      tldr: "We studied how perspective (reader or writer of the text), purpose (the goal of reading or writing), and procedural factors (how AI was used) influences perceived necessity of AI disclosure in AI-assisted writing."
+      tldr: "We studied how perspective (reader or writer of the text), purpose (the goal of reading or writing), and procedural factors (how AI was used) influence the perception about AI disclosure necessity in writing."
       image: disclosure.png
       links:
         - {
