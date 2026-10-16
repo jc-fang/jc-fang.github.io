@@ -103,13 +103,23 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   color: var(--text); font-size: 0.92rem;
 }
 .sidebar__links a:hover { color: var(--accent); text-decoration: none; }
-/* link without a url: plain text, default cursor, tooltip via title */
+/* link without a url: plain text, default cursor, instant tooltip from data-tooltip */
 .sidebar__links .is-disabled {
+  position: relative;
   display: flex; align-items: center; gap: var(--s2);
   padding: 4px 0;
   color: var(--text); font-size: 0.92rem;
   cursor: default;
 }
+.sidebar__links .is-disabled::after {
+  content: attr(data-tooltip);
+  position: absolute; left: 0; top: 100%; z-index: 10;
+  padding: 3px 8px; border-radius: 4px;
+  background: #f1f1f1; color: #797979; border: 1px solid #a09797;
+  font-size: 0.78rem; white-space: nowrap;
+  opacity: 0; pointer-events: none; transition: opacity 0.1s;
+}
+.sidebar__links .is-disabled:hover::after { opacity: 1; }
 /* highlighted note under the links */
 .sidebar__notice {
   margin: var(--s3) calc((var(--sidebar-w) - var(--photo)) / 2) 0;

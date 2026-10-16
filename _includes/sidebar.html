@@ -13,7 +13,7 @@
         {% include icon.html name=link.icon %}<span>{{ link.label }}</span>
       </a>
       {% else %}
-      <span class="is-disabled" title="{{ link.tooltip | default: 'Not available yet' }}" aria-disabled="true">
+      <span class="is-disabled" data-tooltip="{{ link.tooltip | default: 'Not available yet' }}" aria-disabled="true">
         {% include icon.html name=link.icon %}<span>{{ link.label }}</span>
       </span>
       {% endif %}
