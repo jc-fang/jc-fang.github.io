@@ -12,7 +12,7 @@ info:
 links:
   - {
       icon: email,
-      label: "jcfang [at] uchicago [dot] edu",
+      label: "jcfang[at]uchicago[dot]edu",
       url: "mailto:jcfang@uchicago.edu",
     }
   - {
@@ -27,7 +27,8 @@ links:
       url: "https://www.linkedin.com/in/jingchaofang7b840411b/",
     }
   #- { icon: twitter,  label: Twitter,        url: "https://twitter.com/AndreaFang1112" }
-  #- { icon: cv,       label: CV,             url: "/CV.pdf" }
+  # No `url` = not clickable; `tooltip` is shown on hover.
+  - { icon: cv, label: CV, tooltip: "Available upon request" }
 
 scholar_url: "https://scholar.google.com/citations?user=ZEJh3K4AAAAJ&hl=en&oi=ao"
 
@@ -37,11 +38,11 @@ notice: "🌱 [2026-2027] I am on the job market, seeking academic and industry 
 # Intro paragraphs. HTML allowed, so add links freely.
 intro:
   - >-
-    I am a postdoc at the <a href="https://datascience.uchicago.edu/">University of Chicago Data Science Institute</a>, working with
+    I am a postdoc at the <a class="colored" href="https://datascience.uchicago.edu/people/jingchao-fang/">University of Chicago Data Science Institute</a>, working with
     <a href="https://minalee-research.github.io/">Mina Lee</a>. My research interests lie at the
     intersection of <strong>Human-Computer Interaction</strong>, <strong>Social Computing</strong>, and <strong>Responsible AI Application</strong>. I design and evaluate
-    human-centered technology to support users' <strong>learning</strong> and <strong>knowledge work</strong>, focusing primarily on online education and AI-assisted writing contexts. 
-    I approach this goal from two angles: (1) designing interactive systems that scaffold cognitive activities in sensemaking and content creation, and (2) fostering mindful and responsible use of interactive systems.
+    human-centered technology to <strong>support users' learning and knowledge work</strong>, focusing primarily on online education and AI-assisted writing contexts. 
+    I approach this goal from two angles: (1) designing interactive systems that scaffold cognitive activities in sensemaking and content creation, and (2) fostering mindful and responsible use of AI-infused systems.
   - >-
     I previously earned my PhD in Computer Science from the <a href="https://www.ucdavis.edu/">University of California, Davis</a>, advised by
     <a href="http://www.haochuanwang.info/">Hao-Chuan Wang</a>, and dual BSc degrees in Mathematics

@@ -29,7 +29,7 @@
       links:
         - { label: Paper, url: "https://openreview.net/pdf?id=dipmCvnUbc" }
 
-- theme: Responsible AI Use in Knowledge Work
+- theme: Mindful & Responsible AI Use in Knowledge Work
   description: Understanding and shaping how large language models behave when people design and study interactions with them.
   papers:
     - title: "What Influences Readers' and Writers' Perceived Necessity of AI Disclosure?"
@@ -64,7 +64,7 @@
             url: "https://dl.acm.org/doi/pdf/10.1145/3652988.3673967",
           }
 
-- theme: Online Community
+- theme: Online Community & Social Norms
   description: How people influence one another in online communities and collective judgments.
   papers:
     - title: "Understanding Social Influence in Collective Product Ratings Using Behavioral and Cognitive Metrics"
@@ -80,7 +80,7 @@
     - title: "Understanding Discussions Around Norms in Heavily Moderated Knowledge-Based Online Communities: A Case Study on Meta Stack Overflow"
       authors: "**Jingchao Fang**, Jia-Wei Liang, Hao-Chuan Wang"
       venue: "Computer Supported Cooperative Work: The Journal of Collaborative Computing and Work Practices"
-      tldr: ' We established a taxonomy of "what''s and hows" of norm-related discussions in a heavily moderated, knowledge-based online community.'
+      tldr: "We established a taxonomy of 'whats' and 'hows' of norm-related discussions in a heavily moderated, knowledge-based online community."
       image: metaso-norm.png
       links:
         - {

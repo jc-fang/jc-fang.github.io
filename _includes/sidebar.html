@@ -8,9 +8,15 @@
   <ul class="sidebar__links">
     {% for link in p.links %}
     <li>
+      {% if link.url %}
       <a href="{{ link.url | relative_url }}">
         {% include icon.html name=link.icon %}<span>{{ link.label }}</span>
       </a>
+      {% else %}
+      <span class="is-disabled" title="{{ link.tooltip | default: 'Not available yet' }}" aria-disabled="true">
+        {% include icon.html name=link.icon %}<span>{{ link.label }}</span>
+      </span>
+      {% endif %}
     </li>
     {% endfor %}
   </ul>

@@ -103,6 +103,13 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   color: var(--text); font-size: 0.92rem;
 }
 .sidebar__links a:hover { color: var(--accent); text-decoration: none; }
+/* link without a url: plain text, default cursor, tooltip via title */
+.sidebar__links .is-disabled {
+  display: flex; align-items: center; gap: var(--s2);
+  padding: 4px 0;
+  color: var(--text); font-size: 0.92rem;
+  cursor: default;
+}
 /* highlighted note under the links */
 .sidebar__notice {
   margin: var(--s3) calc((var(--sidebar-w) - var(--photo)) / 2) 0;
@@ -123,6 +130,8 @@ a:hover > .icon { color: var(--accent); }
 /* links in the intro (e.g. advisor names): normal text color, theme color on hover */
 .intro a { color: inherit; }
 .intro a:hover { color: var(--accent); }
+/* add class="colored" to an intro link to show the theme color all the time */
+.intro a.colored { color: var(--accent); }
 
 /* ---------- News ---------- */
 .news { list-style: none; padding: 0; display: grid; gap: var(--s1); }
